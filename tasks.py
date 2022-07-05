@@ -409,3 +409,14 @@ def psr(c):
     """Runs semantic-release publish."""
     _clean_build()
     c.run("semantic-release publish")
+
+
+@task
+def update(c):
+    """Updates the development environment"""
+    c.run("pre-commit autoupdate")
+    c.run("pip-compile requirements/base.in")
+    c.run("pip-compile requirements/development.in")
+    c.run("pip-compile requirements/production.in")
+    c.run("pip-compile requirements/test.in")
+    c.run("pip install -r requirements/development.txt")
