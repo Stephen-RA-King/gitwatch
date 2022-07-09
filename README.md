@@ -77,7 +77,6 @@ Stephen R A King : stephen.ra.king@gmail.com
 
 Distributed under the MIT license. See [license](license-url) for more information.
 
-[https://github.com/Stephen-RA-King/gitwatch](https://github.com/Stephen-RA-King/gitwatch)
 
 <!-- Markdown link & img dfn's -->
 
