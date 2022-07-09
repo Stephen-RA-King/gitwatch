@@ -84,3 +84,6 @@ def fibonacci(number_range: int) -> list:
             return result
         result.append(a)
         a, b = b, (a + b)
+
+
+print("hello")
