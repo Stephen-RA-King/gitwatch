@@ -136,4 +136,4 @@ dmypy.json
 TODO.txt
 *.docx
 post_installation.py
-ignore/*
+ignore/
