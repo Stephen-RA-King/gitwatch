@@ -17,6 +17,7 @@
 [![CodeQl][codeql-image]][codeql-url]
 [![readthedocs][readthedocs-image]][readthedocs-url]
 [![pre-commit][pre-commit-image]][pre-commit-url]
+[![pre-commit.ci status][pre-commit.ci-image]][pre-commit.ci-url]
 [![Imports: isort][isort-image]][isort-url]
 [![Code style: black][black-image]][black-url]
 [![Checked with mypy][mypy-image]][mypy-url]
@@ -113,8 +114,10 @@ hello
 [mypy-url]: http://mypy-lang.org/
 [pre-commit-image]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
 [pre-commit-url]: https://github.com/pre-commit/pre-commit
-[pypi-url]: https://pypi.org/project/gitwatch/
+[pre-commit.ci-image]: https://results.pre-commit.ci/badge/github/Stephen-RA-King/gitwatch/main.svg
+[pre-commit.ci-url]: https://results.pre-commit.ci/latest/github/Stephen-RA-King/gitwatch/main
 [pypi-image]: https://img.shields.io/pypi/v/gitwatch.svg
+[pypi-url]: https://pypi.org/project/gitwatch/
 [python-version-image]: https://img.shields.io/pypi/pyversions/gitwatch
 [readthedocs-image]: https://readthedocs.org/projects/gitwatch/badge/?version=latest
 [readthedocs-url]: https://gitwatch.readthedocs.io/en/latest/?badge=latest
