@@ -60,7 +60,7 @@ repos:
         args: ["--ignore=E800,F842,F841,W503"]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.34.0
+    rev: v2.37.1
     hooks:
       - id: pyupgrade
         args: [--py39]
