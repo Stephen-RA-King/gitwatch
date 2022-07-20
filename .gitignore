@@ -139,3 +139,5 @@ post_installation.py
 ignore/
 design_docs/
 gui1/
+*.epgz
+"design_docs/monitor dialog.epgz"
