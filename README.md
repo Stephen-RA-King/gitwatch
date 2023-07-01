@@ -1,6 +1,6 @@
 # gitwatch
 
-> Short blurb about what your product does.
+_**A Git repository monitoring tool that reports on the synchronicity between remote repository branches and local repository branches**_
 
 [![PyPI][pypi-image]][pypi-url]
 [![Downloads][downloads-image]][downloads-url]
@@ -26,7 +26,7 @@
 [![Pydough][pydough-image]][pydough-url]
 [![OpenSSFScorecard][openssf-image]][openssf-url]
 
-One to two paragraph statement about your product and what it does.
+Get early alerts about potential conflicts occurring from a push to a remote branch. Gitwatch will peridically poll remote repositories and its branches at a configurable interval.
 
 ![](assets/header.png)
 
@@ -36,21 +36,19 @@ One to two paragraph statement about your product and what it does.
 
 OS X & Linux:
 
-```sh
-pip3 install gitwatch
+```bash
+$ pip3 install gitwatch
 ```
 
 Windows:
 
-```sh
-pip install gitwatch
+```bash
+$ pip install gitwatch
 ```
 
 ## Usage example
 
 ---
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
@@ -58,10 +56,8 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ---
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-pip install --editable gitwatch
+```bash
+pip install -e .
 ```
 
 ## Documentation
@@ -70,7 +66,6 @@ pip install --editable gitwatch
 
 [**Read the Docs**](https://gitwatch.readthedocs.io/en/latest/)
 
--   [**Example Usage**](https://gitwatch.readthedocs.io/en/latest/example.html)
 -   [**Credits**](https://gitwatch.readthedocs.io/en/latest/example.html)
 -   [**Changelog**](https://gitwatch.readthedocs.io/en/latest/changelog.html)
 -   [**API Reference**](https://gitwatch.readthedocs.io/en/latest/autoapi/index.html)

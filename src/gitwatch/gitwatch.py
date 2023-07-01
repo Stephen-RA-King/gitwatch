@@ -165,7 +165,7 @@ if __name__ == "__main__":
         print("Repo successfully loaded.")
         repository_info(repo)
         get_remote_url()
-        list_remote_branches("pi@192.168.0.153:/repo/tryout")
+        #   -list_remote_branches("pi@192.168.0.153:/repo/tryout")
         untracked_files()
         unstaged_files()
         branches()
