@@ -3,7 +3,7 @@ import difflib
 from pathlib import Path
 
 # Third party modules
-from git import Repo
+from git import Repo, Remote
 
 root = Path("/")
 REPO_DIR = root / "gitwatch" / "tryout"
@@ -88,12 +88,32 @@ def branch_sync_status() -> None:
     pass
 
 
+def get_remote_url():
+    message = "REMOTE URL"
+    print_message(message)
+    remote_url = None
+    for remote in repo.remotes:
+        remote_url = remote.url
+        break  # Assuming there is only one remote
+    print(remote_url)
+
+
+def list_remote_branches(remote_url):
+    message = "REMOTE BRANCHES"
+    print_message(message)
+    remote = Remote('origin', remote_url)
+    remote.fetch()
+    branches = [ref.name.split('/')[-1] for ref in remote.refs]
+    print(branches)
+
+
 def remote_file_diff() -> None:
     message = "FILE CONTENT DIFFS BETWEEN MAIN and ORIGIN/MAIN"
     print_message(message)
     commit_dev = repo.commit("main")
     commit_origin_dev = repo.commit("origin/main")
-    diff_index = commit_origin_dev.diff(commit_dev)
+    # diff_index = commit_origin_dev.diff(commit_dev)
+    diff_index = commit_dev.diff(commit_origin_dev)
     print(f"{'Total Files Modified:':20} {len(diff_index)}")
 
     for diff_item in diff_index.iter_change_type("M"):
@@ -144,6 +164,8 @@ if __name__ == "__main__":
     if not repo.bare:
         print("Repo successfully loaded.")
         repository_info(repo)
+        get_remote_url()
+        list_remote_branches("pi@192.168.0.153:/repo/tryout")
         untracked_files()
         unstaged_files()
         branches()
