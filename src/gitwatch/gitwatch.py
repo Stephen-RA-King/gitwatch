@@ -3,7 +3,7 @@ import difflib
 from pathlib import Path
 
 # Third party modules
-from git import Repo, Remote
+from git import Remote, Repo
 
 root = Path("/")
 REPO_DIR = root / "gitwatch" / "tryout"
@@ -101,9 +101,9 @@ def get_remote_url():
 def list_remote_branches(remote_url):
     message = "REMOTE BRANCHES"
     print_message(message)
-    remote = Remote('origin', remote_url)
+    remote = Remote("origin", remote_url)
     remote.fetch()
-    branches = [ref.name.split('/')[-1] for ref in remote.refs]
+    branches = [ref.name.split("/")[-1] for ref in remote.refs]
     print(branches)
 
 

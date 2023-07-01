@@ -114,8 +114,8 @@ Digital object identifier: [![DOI](https://zenodo.org/badge/xxxxxxxxx.svg)](http
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square
 [conventional-commits-url]: https://conventionalcommits.org
-[deepsource-image]: https://static.deepsource.io/deepsource-badge-light-mini.svg
-[deepsource-url]: https://deepsource.io/gh/Stephen-RA-King/gitwatch/?ref=repository-badge
+[deepsource-image]: https://app.deepsource.com/gh/Stephen-RA-King/gitwatch.svg/?label=active+issues&show_trend=true
+[deepsource-url]: https://app.deepsource.com/gh/Stephen-RA-King/gitwatch/?ref=repository-badge
 [docker-image]: https://github.com/Stephen-RA-King/gitwatch/actions/workflows/docker-image.yml/badge.svg
 [docker-url]: https://github.com/Stephen-RA-King/gitwatch/actions/workflows/docker-image.yml
 [downloads-image]: https://static.pepy.tech/personalized-badge/gitwatch?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
