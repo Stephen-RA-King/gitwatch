@@ -89,7 +89,7 @@ Distributed under the MIT license. See [![][license-image]][license-url] for mor
 
 Created with Cookiecutter template: [![pydough][pydough-image]][pydough-url] version 1.3.3
 
-Digital object identifier: [![DOI](https://zenodo.org/badge/xxxxxxxxx.svg)](https://zenodo.org/badge/latestdoi/xxxxxxxxx)
+Digital object identifier: [![DOI](https://zenodo.org/badge/658815196.svg)](https://zenodo.org/badge/latestdoi/658815196)
 
 <!-- Markdown link & img dfn's -->
 
